@@ -9,7 +9,9 @@ package at.ac.fh_kufstein.uebung_03.Classes;
  *
  * @author Michael
  */
-public class Vehicle {
+public class Vehicle extends  AbstractBenennbar{
+    
+    
     
     private short wheels;
     private Color f;
@@ -108,6 +110,16 @@ public class Vehicle {
         }
     }
     
+   
+    @Override
+    public String getName()
+    {
+       return FName; 
+    }
+    public void setName(String _n)
+    {
+        FName = _n;
+    }
     
     
 }
