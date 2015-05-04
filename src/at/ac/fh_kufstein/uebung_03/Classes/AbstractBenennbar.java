@@ -13,17 +13,6 @@ public abstract class AbstractBenennbar {
     abstract String getName();
     abstract void setName(String _n);
     protected String FName;
-
    
-
-    
-    public String getFName() {
-        return FName;
-    }
-
-    public void setFName(String FName) {
-        this.FName = FName;
-    }
-    
     
 }
